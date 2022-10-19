@@ -73,18 +73,6 @@ def mostrar():
     print(dataframe1)
 
 
-
-def buscar():
-    print('')
-    print(' Usted eligio la opcion para buscar un cliente')
-    print('')
-    busqueda=input('Ingrese el DNI o nombre del cliente desea buscar: ')
-    for cliente in listaclientes:
-        if cliente.dni == busqueda or cliente.nombre == busqueda:
-            print("el cliente que busca: ")
-            print('DNI del cliente' ,cliente.dni ,'Nombre' ,cliente.nombre ,'Direccion' , cliente.direccion ,'Saldo' , cliente.saldo)
-
-
 def salir():
     print('')
     print(' Usted selecciono la opcion para salir del sistema')
