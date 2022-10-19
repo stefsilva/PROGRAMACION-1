@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from prueba import funcion
+from juegof import funcion
 
 listaclientes= list()
 listadni=[]
